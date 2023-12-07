@@ -17,19 +17,17 @@ async def start(client, message):
     user = message.from_user
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id)             
-    txt=f"👋 Hello Developer {user.mention} \n\nI am an Advance file Renamer and file Converter BOT with Custom thumbnail support.\n\nSend me any video or document !"
+    txt=f"👋 ʜᴇʟʟᴏ ʙᴜᴅᴅʏ {user.mention} \n\nɪ ᴀᴍ ᴀ ᴀᴅᴠᴀɴᴄᴇ ғɪʟᴇ ʀᴇɴᴀᴍᴇʀ ᴀɴᴅ ғɪʟᴇ ᴄᴏɴᴠᴇʀᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ.\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ ❤"
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton(" Developer ", url='https://t.me/Krishna00P')
         ],[
         InlineKeyboardButton(' Updates', url='https://t.me/Movies_Zone_Media'),
         InlineKeyboardButton(' Support', url='https://t.me/Movies_Zone_Support')
         ],[
-        InlineKeyboardButton(' About', callback_data='about'),
-        InlineKeyboardButton(' Help', callback_data='help')
+        InlineKeyboardButton(' ⍟ Aʙᴏᴜᴛ', callback_data='about'),
+        InlineKeyboardButton(' 〄 Hᴇʟᴘ', callback_data='help')
         ],[
-        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/Movies_Zone_Media')
-        ],[
-        InlineKeyboardButton("❤️ Recommendation for New Bots ❤️", url='https://t.me/Krishna00P')
+        InlineKeyboardButton(" ✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇", url='https://t.me/Movies_Zone_Media')
         ]
         ])
     if START_PIC:
@@ -82,8 +80,6 @@ async def cb_handler(client, query: CallbackQuery):
         InlineKeyboardButton(' Help', callback_data='help')
         ],[
         InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/Movies_Zone_Media')
-        ],[
-        InlineKeyboardButton("❤️ Recommendation for New Bots ❤️", url='https://t.me/Krishna00P')
         ]
         ]
                 )
