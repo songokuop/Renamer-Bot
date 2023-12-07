@@ -2,7 +2,7 @@
     "name": "LazyRenamer",
     "description": "Telegram File Renamer Bot ",
     "keywords": ["Renamer Bot", "Mongo DB"],    
-    "repository": "https://github.com/VJBots/Rename-Render",
+    "repository": "https://github.com/KrishnaTG/LazyRenamer",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
