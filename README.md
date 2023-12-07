@@ -97,4 +97,3 @@ python3 bot.py
 #### Join Telegram Channel 
  - [Movies Zone Media](https://telegram.me/Movies_Zone_Media). Bot Updates Channel
  - Support Group [Movies Zone Support](https://telegram.me/Movies_Zone_Support). For Bug report.
- - 
