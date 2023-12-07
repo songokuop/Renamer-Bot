@@ -1,4 +1,3 @@
-# LazyRenamer
 ### Give a star and Fork the Repo or You can Use this as a Template also.
 
 ####  Features
