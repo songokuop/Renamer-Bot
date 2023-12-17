@@ -19,15 +19,15 @@ async def start(client, message):
         await db.add_user(user.id)             
     txt=f"👋 ʜᴇʟʟᴏ ʙᴜᴅᴅʏ {user.mention} \n\nɪ ᴀᴍ ᴀ ᴀᴅᴠᴀɴᴄᴇ ғɪʟᴇ ʀᴇɴᴀᴍᴇʀ ᴀɴᴅ ғɪʟᴇ ᴄᴏɴᴠᴇʀᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ.\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ ❤"
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButton(" Developer ", url='https://t.me/Krishna00P')
+        InlineKeyboardButton(" Developer ", url='https://t.me/Botz_station_owner_bot')
         ],[
-        InlineKeyboardButton(' Updates', url='https://t.me/Movies_Zone_Media'),
-        InlineKeyboardButton(' Support', url='https://t.me/Movies_Zone_Support')
+        InlineKeyboardButton(' Updates', url='https://t.me/Botz_Station'),
+        InlineKeyboardButton(' Support', url='https://t.me/Botz_Station_Support')
         ],[
         InlineKeyboardButton(' ⍟ Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton(' 〄 Hᴇʟᴘ', callback_data='help')
         ],[
-        InlineKeyboardButton(" ✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇", url='https://t.me/Movies_Zone_Media')
+        InlineKeyboardButton(" ✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇", url='https://t.me/Botz_Station')
         ]
         ])
     if START_PIC:
@@ -71,15 +71,15 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=f"""👋 Hello Developer {query.from_user.mention} \n\nI am an Advance file Renamer and file Converter BOT with permanent and custom thumbnail support.\n\nSend me any video or document !""",
             reply_markup=InlineKeyboardMarkup( [[
-        InlineKeyboardButton(" Developer ", url='https://t.me/Krishna00P')
+        InlineKeyboardButton(" Developer ", url='https://t.me/Botz_station_owner_bot')
         ],[
-        InlineKeyboardButton(' Updates', url='https://t.me/Movies_Zone_Media'),
-        InlineKeyboardButton(' Support', url='https://t.me/movies_zone_support')
+        InlineKeyboardButton(' Updates', url='https://t.me/Botz_Station'),
+        InlineKeyboardButton(' Support', url='https://t.me/Botz_Station_Support')
         ],[
         InlineKeyboardButton(' About', callback_data='about'),
         InlineKeyboardButton(' Help', callback_data='help')
         ],[
-        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/Movies_Zone_Media')
+        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/BS_Movies_Group')
         ]
         ]
                 )
@@ -88,7 +88,7 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/vj_bots")
+               InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/BS_Movies_Group")
                ],[
                InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
@@ -101,7 +101,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/vj_bots")
-               ],[
+               ],
                InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
                ]]
